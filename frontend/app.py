@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:8000/search"
+API_URL = "https://khoj-the-search.onrender.com/search"
 
 st.set_page_config(
     page_title="Khoj - The Search",
@@ -49,7 +49,7 @@ if st.button("Search", use_container_width=True):
                         st.divider()
 
         except requests.exceptions.ConnectionError:
-            st.error("Could not connect to the FastAPI server. Make sure it is running on http://127.0.0.1:8000")
+            st.error("Could not connect to the FastAPI server. Make sure it is running on https://khoj-the-search.onrender.com")
         except requests.exceptions.Timeout:
             st.error("The request timed out.")
         except requests.exceptions.RequestException as e:
