@@ -6,8 +6,8 @@ A high-performance fuzzy search engine built from scratch using **N-Gram indexin
 
 ## 🚀 Live Demo
 
-- 🌐 Frontend (Streamlit): _[Add your Streamlit URL here]_
-- ⚙️ Backend (FastAPI): _[Add your Render URL here]_
+- 🌐 Frontend (Streamlit): _[https://khoj-the-search.streamlit.app/]_
+- ⚙️ Backend (FastAPI): _[https://khoj-the-search.onrender.com]_
 
 ---
 
@@ -162,7 +162,7 @@ Khoj_The_Search/
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/your-username/Khoj-The-Search.git
+git clone https://github.com/AAMOvi/Khoj-The-Search
 cd Khoj-The-Search
 ```
 
@@ -228,22 +228,6 @@ docker build -f Dockerfile.frontend -t khoj-frontend .
 ```bash
 docker run -p 8501:8501 khoj-frontend
 ```
-
----
-
-## 🔐 Environment Variables
-
-Frontend uses:
-
-```text
-API_URL = <backend_url>/search
-```
-
-Examples:
-
-- Local: `http://localhost:8000/search`
-- Docker: `http://host.docker.internal:8000/search`
-- Production: `https://your-app.onrender.com/search`
 
 ---
 
