@@ -254,7 +254,7 @@ This project demonstrates:
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Developed by
 
 **Abdullah Al Maruf**
 CSE, RUET
